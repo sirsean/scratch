@@ -41,20 +41,34 @@ Complete collection of analysis, visualizations, and presentation materials for 
 
 **Presentations** (Choose based on context and available time):
 
-**For Active $1M Initiative** (Trading desk already executing):
-- `uniswap_v3_presentation_15min_v2.md` - **Business update: Client revenue opportunity** ⭐⭐ RECOMMENDED
+**For Active $1M Initiative - Derivative Toolkit Focus** (RECOMMENDED):
+- `uniswap_v3_presentation_final.md` - **LP as new derivative instrument** ⭐⭐⭐ USE THIS
+  - Focus: Building capability with a new derivative class
+  - Theme: Crypto market maturation, applying existing expertise
+  - Narrative: "Just like any other derivative in our toolbox"
+  - Tone: Technical, professional, matter-of-fact (not promotional)
+  - Client mention: Brief context (some need on-chain execution)
+  - Strategic framing: Preparation for where markets are going
+  - Use when: Updating leadership on capability building
+
+- `presentation_guide_final.md` - **Derivative toolkit delivery guide**
+  - Messaging for capability building vs revenue opportunity
+  - Emphasis on crypto maturity and applying existing expertise
+  - Technical credibility and strategic preparation
+  - How to avoid sounding speculative or trendy
+
+**Alternative: Active $1M Initiative - Client Revenue Focus**:
+- `uniswap_v3_presentation_15min_v2.md` - **Business update: Client revenue opportunity**
   - Focus: Winning market making mandates from institutional clients
   - Narrative: Client-driven demand, competitive advantage, revenue projections
   - Numbers: $500k Year 1, $1.7M Year 2, $50M client pipeline
   - Tone: Confident ("This IS happening"), informing not asking
-  - Ask: Leadership support for team scaling and marketing enablement
-  - Use when: Updating on active initiative, not seeking approval
+  - Use when: Heavy emphasis on business development desired
 
 - `presentation_guide_15min_v2.md` - **Business update delivery guide**
   - Messaging for 'informing leadership' vs 'seeking approval'
   - Client-centric Q&A responses
-  - Emphasis on revenue opportunity and competitive positioning
-  - How to frame support needs (hiring, marketing)
+  - Emphasis on revenue opportunity
 
 **For Proposed Pilot** (Seeking approval to start):
 - `uniswap_v3_presentation_15min.md` - **Pilot proposal format**
@@ -175,9 +189,9 @@ All analysis verified and documented. Code is executable and reproducible. Prese
 - 9 graphs (original + educational + Greeks)
 - 4 analysis documents (1000+ pages combined)
 - 5 Python scripts (fully tested)
-- 6 presentation materials:
-  - 3 presentation decks (45-min, 15-min pilot, 15-min business update)
-  - 3 delivery guides (one for each format)
+- 8 presentation materials:
+  - 4 presentation decks (45-min, 15-min pilot, 15-min client revenue, 15-min derivative toolkit)
+  - 4 delivery guides (one for each format)
 
 **Branch**: `claude/execute-graph-generation-Z5Rc3`
 
