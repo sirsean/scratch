@@ -131,11 +131,16 @@
 **Key points**:
 - "Same Greeks: Delta, Gamma, Theta, Vega"
 - "Negative gamma IS impermanent loss—same as selling options"
+- **Important distinction**: Two types of rebalancing
+  - Automatic (in range): Protocol does this, creates unrealized IL
+  - Manual (out of range): We decide to close/reset, realizes the losses
 - "Theta (fees) must offset gamma (IL)—familiar tradeoff"
 
 **Show dashboard**: Greeks we already track daily
 
 **Delivery**: This proves we can risk-manage properly. Emphasize familiarity.
+
+**Critical talking point**: "While the position is in range, the protocol automatically rebalances—buying high and selling low. This creates impermanent loss, but it's offset by fees. When price moves out of range, we have a decision point: close the position (realize the loss) or reset the range (continue earning fees). This is active risk management, not passive holding."
 
 **Phrase to use**: "We already manage these Greeks daily. This is just another venue."
 
@@ -225,6 +230,9 @@
 
 **Q: "What if crypto crashes?"**
 **A**: "Positions are delta-hedged—neutral to directional moves. We exit if volatility regime makes fees insufficient to cover IL."
+
+**Q: "How does impermanent loss actually work?"**
+**A**: "Two types of rebalancing: First, automatic—while in range, protocol continuously rebalances, creating unrealized IL offset by fees. Second, manual—when price moves out of range, we decide to close (realizes losses) or reset range (continue earning). It's active management with clear decision points, not passive exposure."
 
 **Q: "What's the ROI?"**
 **A**: "10-20% delta-neutral yield in current conditions. But primary goal is capability building for client needs, not P&L."

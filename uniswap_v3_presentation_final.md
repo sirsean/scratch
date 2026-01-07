@@ -86,9 +86,13 @@
 
 **Gamma (Γ)** - Rebalancing Cost:
 - **Negative in range** = short gamma exposure (like selling options)
-- This IS the source of impermanent loss
-- Buy high, sell low rebalancing = losses from price movement
-- Zero gamma out of range = no rebalancing
+- **Automatic rebalancing** (in range): Protocol continuously buys high/sells low as price moves
+  - Creates impermanent loss (unrealized while in range)
+  - Offset by fee income from trading volume
+- **Manual rebalancing** (out of range): When price exits our range
+  - Must close position or reset range to stay active
+  - Crystallizes/realizes the losses from automatic rebalancing
+  - Decision point: Are fees earned > losses incurred?
 
 **Theta (θ)** - Fee Income:
 - No expiration, but earn fees over time (like positive theta)
