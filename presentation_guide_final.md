@@ -19,7 +19,7 @@
 ✅ **LP positions ARE derivatives** (mathematically identical to options)
 ✅ **Capability building** (adding to our toolkit)
 ✅ **Applying existing expertise** (same Greeks, same risk management)
-✅ **Client needs** (some require on-chain execution)
+✅ **Customer needs** (some require on-chain execution)
 ✅ **Market maturation** (crypto becoming legitimate asset class)
 
 ### What to De-emphasize
@@ -38,7 +38,7 @@
 
 ## The 60-Second Opening (Memorize)
 
-> "Quick update on what the trading desk is doing with Uniswap v3. Bottom line: We discovered that liquidity provider positions are mathematically identical to options strategies we already trade. Since some clients need on-chain liquidity solutions, we need to understand and manage these instruments professionally. This isn't about chasing DeFi trends—it's about having the right tools as crypto markets mature. We're deploying $1M to build expertise, treating these like any other derivative. Let me show you why these are real instruments, not speculation..."
+> "Quick update on what the trading desk is doing with Uniswap v3. Bottom line: We discovered that liquidity provider positions are mathematically identical to options strategies we already trade. Since some customers need on-chain liquidity solutions, we need to understand and manage these instruments professionally. This isn't about chasing DeFi trends—it's about having the right tools as crypto markets mature. We're deploying $1M to build expertise, treating these like any other derivative. Let me show you why these are real instruments, not speculation..."
 
 ---
 
@@ -71,13 +71,13 @@
 **Duration**: 60 seconds
 
 **Key points**:
-- "Some clients need on-chain execution (regulatory, custody, transparency)"
+- "Some customers need on-chain execution (regulatory, custody, transparency)"
 - "Can't tell them 'we don't do on-chain'"
 - "$4B TVL, 3+ years—production-grade, not experimental"
 
-**Delivery**: Frame as client service. Don't dwell on revenue.
+**Delivery**: Frame as customer service. Don't dwell on revenue.
 
-**Phrase to use**: "Expanding our derivative capabilities to meet client needs"
+**Phrase to use**: "Expanding our derivative capabilities to meet customer needs"
 
 ---
 
@@ -179,7 +179,7 @@
 **Key points**:
 - "$1M starting with AVAX/USDC on Avalanche"
 - "NOT: betting on crypto, speculation, unhedged positions"
-- "ARE: building capability, applying risk frameworks, responding to clients"
+- "ARE: building capability, applying risk frameworks, responding to customers"
 - "Goal: make this just another instrument"
 
 **Delivery**: Clear about what this is and isn't. Emphasize professionalism.
@@ -213,7 +213,7 @@
 
 **Delivery**: Reinforce main messages. Leave no ambiguity.
 
-**Close with**: "We're not chasing DeFi trends. We're building competency with instruments that clients need and markets are demanding."
+**Close with**: "We're not chasing DeFi trends. We're building competency with instruments that customers need and markets are demanding."
 
 ---
 
@@ -226,7 +226,7 @@
 **A**: "Same risk framework as options. Greeks-based sizing, delta hedging, position limits. Smart contract risk mitigated by $4B TVL and 3+ years operation."
 
 **Q: "Why not just stick with traditional derivatives?"**
-**A**: "Some clients need on-chain execution. Many altcoin pairs don't have liquid options markets. This expands our toolkit."
+**A**: "Some customers need on-chain execution. Many altcoin pairs don't have liquid options markets. This expands our toolkit."
 
 **Q: "What if crypto crashes?"**
 **A**: "Positions are delta-hedged—neutral to directional moves. We exit if volatility regime makes fees insufficient to cover IL."
@@ -235,7 +235,7 @@
 **A**: "Two types of rebalancing: First, automatic—while in range, protocol continuously rebalances, creating unrealized IL offset by fees. Second, manual—when price moves out of range, we decide to close (realizes losses) or reset range (continue earning). It's active management with clear decision points, not passive exposure."
 
 **Q: "What's the ROI?"**
-**A**: "10-20% delta-neutral yield in current conditions. But primary goal is capability building for client needs, not P&L."
+**A**: "10-20% delta-neutral yield in current conditions. But primary goal is capability building for customer needs, not P&L."
 
 **Q: "This seems different from our core business."**
 **A**: "Our core business is derivatives. These are derivatives—same math, just on-chain execution. Like trading same instrument on different exchange."
@@ -288,13 +288,13 @@
 **Response**: "Same risk as selling options, which we do daily. Greeks-based sizing, delta hedging, position limits. Only difference is execution venue, not risk profile."
 
 ### "Why crypto? Why now?"
-**Response**: "$4B TVL, 3 years live, institutional infrastructure. Some clients need on-chain. Better to build expertise during legitimization than scramble during standardization."
+**Response**: "$4B TVL, 3 years live, institutional infrastructure. Some customers need on-chain. Better to build expertise during legitimization than scramble during standardization."
 
 ### "What's the ROI?"
-**Response**: "This is capability building, not profit center. Net yields 10-20% delta-neutral, but strategic value is serving client needs as crypto matures."
+**Response**: "This is capability building, not profit center. Net yields 10-20% delta-neutral, but strategic value is serving customer needs as crypto matures."
 
 ### "Can't this wait?"
-**Response**: "Clients asking now. Expertise building takes time. Want to be ready as markets standardize, not learning on the fly."
+**Response**: "Customers asking now. Expertise building takes time. Want to be ready as markets standardize, not learning on the fly."
 
 ---
 
@@ -336,7 +336,7 @@
 
 Trading desk building capability because:
 1. Markets evolving
-2. Clients need it
+2. Customers need it
 3. We need to understand these instruments
 4. Better to build expertise now than later
 

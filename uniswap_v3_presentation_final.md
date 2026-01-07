@@ -7,7 +7,7 @@
 
 **What's Happening**: Trading desk integrating Uniswap v3 LP positions as a new derivative instrument
 
-**Why It Matters**: Clients need on-chain liquidity. LP positions are mathematically identical to options strategies we already trade.
+**Why It Matters**: Customers need on-chain liquidity. LP positions are mathematically identical to options strategies we already trade.
 
 **Strategic Context**: Crypto derivatives are maturing into real instruments with proper risk frameworks. We're building the expertise to work with them.
 
@@ -15,17 +15,17 @@
 
 # Why On-Chain Liquidity Matters
 
-**Client Reality**:
-- Some clients need liquidity on-chain (regulatory, custody, transparency)
+**Customer Reality**:
+- Some customers need liquidity on-chain (regulatory, custody, transparency)
 - DeFi protocols need professional market making
-- Can't tell clients "we don't do on-chain"
+- Can't tell customers "we don't do on-chain"
 
 **Market Maturity**:
 - Uniswap v3: $4B TVL, 3+ years battle-tested
 - Professional infrastructure available
 - No longer experimental—it's production-grade
 
-**Bottom Line**: Expanding our derivative capabilities to meet client needs
+**Bottom Line**: Expanding our derivative capabilities to meet customer needs
 
 ---
 
@@ -169,7 +169,7 @@
 **What We ARE Doing**:
 - ✅ Building capability with a new derivative class
 - ✅ Applying existing risk frameworks to new venues
-- ✅ Responding to client needs for on-chain execution
+- ✅ Responding to customer needs for on-chain execution
 - ✅ Treating this as seriously as any other derivative
 
 **Goal**: LP positions become just another instrument we work with professionally
@@ -204,7 +204,7 @@
 
 **2. This is Capability Building**
 - New tool in our derivative toolkit
-- Respond to client needs
+- Respond to customer needs
 - Be ready as markets mature
 
 **3. We're Applying Existing Expertise**
@@ -216,7 +216,7 @@
 - CEX + DEX = fuller toolkit
 - Cross-venue opportunities
 
-**We're not chasing DeFi trends. We're building competency with instruments that clients need and markets are demanding.**
+**We're not chasing DeFi trends. We're building competency with instruments that customers need and markets are demanding.**
 
 ---
 
