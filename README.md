@@ -39,36 +39,49 @@ Complete collection of analysis, visualizations, and presentation materials for 
 
 ### Business Materials
 
-**Presentations** (Choose based on available time):
+**Presentations** (Choose based on context and available time):
 
-- `uniswap_v3_presentation_15min.md` - **15-minute executive presentation** ⭐ RECOMMENDED
+**For Active $1M Initiative** (Trading desk already executing):
+- `uniswap_v3_presentation_15min_v2.md` - **Business update: Client revenue opportunity** ⭐⭐ RECOMMENDED
+  - Focus: Winning market making mandates from institutional clients
+  - Narrative: Client-driven demand, competitive advantage, revenue projections
+  - Numbers: $500k Year 1, $1.7M Year 2, $50M client pipeline
+  - Tone: Confident ("This IS happening"), informing not asking
+  - Ask: Leadership support for team scaling and marketing enablement
+  - Use when: Updating on active initiative, not seeking approval
+
+- `presentation_guide_15min_v2.md` - **Business update delivery guide**
+  - Messaging for 'informing leadership' vs 'seeking approval'
+  - Client-centric Q&A responses
+  - Emphasis on revenue opportunity and competitive positioning
+  - How to frame support needs (hiring, marketing)
+
+**For Proposed Pilot** (Seeking approval to start):
+- `uniswap_v3_presentation_15min.md` - **Pilot proposal format**
   - Condensed, punchy format for busy leadership
   - 16 slides focusing on core business case
-  - Time allocation: 2min intro, 5min why, 5min opportunity, 2min ask
-  - Same graphs and analysis, streamlined delivery
-  - Clear pilot proposal with specific metrics
+  - Clear pilot proposal: $100k for 6 months
+  - Ask: Approval and capital allocation
+  - Use when: Proposing to start new initiative
 
+- `presentation_guide_15min.md` - **Pilot proposal delivery guide**
+  - Strict timing per slide (with checkpoints)
+  - 30-second answers to top questions
+  - What to cut if running over time
+  - Pre-presentation checklist
+
+**For Technical Deep-Dive** (Any context):
 - `uniswap_v3_presentation.md` - **45-minute detailed presentation**
   - Comprehensive technical and business deep-dive
   - Full analysis of all derivative comparisons
   - Extensive risk framework and governance
   - Use for in-depth reviews or technical committees
 
-**Presentation Guides**:
-
-- `presentation_guide_15min.md` - **15-minute delivery guide** ⭐
-  - Strict timing per slide (with checkpoints)
-  - 30-second answers to top questions
-  - What to cut if running over time
-  - Pre-presentation checklist
-  - Minimum viable presentation (10-min backup)
-
 - `presentation_guide.md` - **45-minute delivery guide**
   - Comprehensive preparation materials
   - Anticipated questions with detailed answers
   - Objection handling strategies
   - Delivery tips and body language advice
-  - Slide-by-slide notes
 
 ## 🐍 Code & Scripts
 
@@ -162,7 +175,9 @@ All analysis verified and documented. Code is executable and reproducible. Prese
 - 9 graphs (original + educational + Greeks)
 - 4 analysis documents (1000+ pages combined)
 - 5 Python scripts (fully tested)
-- 4 presentation materials (2 formats: 15-min + 45-min, each with guide)
+- 6 presentation materials:
+  - 3 presentation decks (45-min, 15-min pilot, 15-min business update)
+  - 3 delivery guides (one for each format)
 
 **Branch**: `claude/execute-graph-generation-Z5Rc3`
 
