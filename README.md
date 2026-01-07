@@ -38,21 +38,37 @@ Complete collection of analysis, visualizations, and presentation materials for 
   - Risk management strategies using Greeks
 
 ### Business Materials
-- `uniswap_v3_presentation.md` - **45-minute presentation deck** for technical leadership
-  - Brief technical overview
-  - Business case: when to use Uniswap v3 vs traditional derivatives
-  - Strategic opportunities (4 hybrid strategies)
-  - Quantitative analysis and expected returns
-  - Risk mitigation and governance recommendations
-  - Phased pilot approach
 
-- `presentation_guide.md` - **Presenter's preparation guide**
-  - Time allocation and key messages
-  - Anticipated questions with suggested answers
+**Presentations** (Choose based on available time):
+
+- `uniswap_v3_presentation_15min.md` - **15-minute executive presentation** ⭐ RECOMMENDED
+  - Condensed, punchy format for busy leadership
+  - 16 slides focusing on core business case
+  - Time allocation: 2min intro, 5min why, 5min opportunity, 2min ask
+  - Same graphs and analysis, streamlined delivery
+  - Clear pilot proposal with specific metrics
+
+- `uniswap_v3_presentation.md` - **45-minute detailed presentation**
+  - Comprehensive technical and business deep-dive
+  - Full analysis of all derivative comparisons
+  - Extensive risk framework and governance
+  - Use for in-depth reviews or technical committees
+
+**Presentation Guides**:
+
+- `presentation_guide_15min.md` - **15-minute delivery guide** ⭐
+  - Strict timing per slide (with checkpoints)
+  - 30-second answers to top questions
+  - What to cut if running over time
+  - Pre-presentation checklist
+  - Minimum viable presentation (10-min backup)
+
+- `presentation_guide.md` - **45-minute delivery guide**
+  - Comprehensive preparation materials
+  - Anticipated questions with detailed answers
   - Objection handling strategies
   - Delivery tips and body language advice
   - Slide-by-slide notes
-  - 30-second elevator pitch
 
 ## 🐍 Code & Scripts
 
@@ -146,7 +162,7 @@ All analysis verified and documented. Code is executable and reproducible. Prese
 - 9 graphs (original + educational + Greeks)
 - 4 analysis documents (1000+ pages combined)
 - 5 Python scripts (fully tested)
-- 2 presentation materials (slides + guide)
+- 4 presentation materials (2 formats: 15-min + 45-min, each with guide)
 
 **Branch**: `claude/execute-graph-generation-Z5Rc3`
 
