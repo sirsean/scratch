@@ -154,19 +154,7 @@
 
 ---
 
-### Slide 9: LP vs v2 vs HODL (60 sec)
-**Show the flexibility**
-
-**Key message**: "Range selection = strategy choice"
-
-**Delivery**:
-- "Can construct different exposure profiles"
-- "Like choosing option strikes"
-- "Flexible tool, not one-size-fits-all"
-
----
-
-### Slide 10: Why This Matters (90 sec)
+### Slide 9: Why This Matters (90 sec)
 **THE CRYPTO MATURITY NARRATIVE**
 
 **Key message**: "Markets are evolving, we need to evolve with them"
@@ -182,7 +170,7 @@
 
 ---
 
-### Slide 11: Our Approach (90 sec)
+### Slide 10: Our Approach (90 sec)
 **How we're treating this**
 
 **Key message**: "Just like any other derivative"
@@ -201,7 +189,7 @@
 
 ---
 
-### Slide 12: Risk Management (60 sec)
+### Slide 11: Risk Management (60 sec)
 **Show we're being thoughtful**
 
 **Key message**: "Fits within existing risk framework"
@@ -215,7 +203,7 @@
 
 ---
 
-### Slide 13: Delta-Hedged LP (90 sec)
+### Slide 12: Delta-Hedged LP (90 sec)
 **What the strategy actually is**
 
 **Key message**: "Volatility selling, delta-neutral"
@@ -229,7 +217,7 @@
 
 ---
 
-### Slide 14: Expected Performance (60 sec)
+### Slide 13: Expected Performance (60 sec)
 **Numbers based on reality**
 
 **Key message**: "These are live market rates, not projections"
@@ -243,7 +231,7 @@
 
 ---
 
-### Slide 15: When to Use (60 sec)
+### Slide 14: When to Use (60 sec)
 **Decision framework**
 
 **Key message**: "Different tools for different situations"
@@ -254,7 +242,7 @@
 
 ---
 
-### Slide 16: The $1M Initiative (90 sec)
+### Slide 15: The $1M Initiative (90 sec)
 **What we're actually doing**
 
 **Key message**: "Building infrastructure and expertise"
@@ -268,7 +256,7 @@
 
 ---
 
-### Slide 17: Technical Infrastructure (60 sec)
+### Slide 16: Technical Infrastructure (60 sec)
 **Show we're being thorough**
 
 **Quick overview**:
@@ -280,7 +268,7 @@
 
 ---
 
-### Slide 18: Success Metrics (30 sec)
+### Slide 17: Success Metrics (30 sec)
 **How we'll measure**
 
 **Quick read**: "Sharpe > 1.5, hedged yield > 10%"
@@ -289,7 +277,7 @@
 
 ---
 
-### Slide 19: What Leadership Should Know (90 sec)
+### Slide 18: What Leadership Should Know (90 sec)
 **Frame expectations clearly**
 
 **Key message**: "This is strategic capability building"
@@ -304,7 +292,7 @@
 
 ---
 
-### Slide 20: The Bigger Picture (90 sec)
+### Slide 19: The Bigger Picture (90 sec)
 **STRATEGIC CONTEXT SLIDE**
 
 **Key message**: "Crypto is in legitimization phase. We're building now."
@@ -318,7 +306,7 @@
 
 ---
 
-### Slide 21: Key Takeaways (60 sec)
+### Slide 20: Key Takeaways (60 sec)
 **The wrap**
 
 **Rapid fire the 5 points**:
