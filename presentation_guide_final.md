@@ -162,14 +162,18 @@
 ---
 
 ### Slide 8: When to Use LP vs Traditional Derivatives
-**Duration**: 60 seconds
+**Duration**: 75 seconds
 
 **Key points**:
-- "Use LP for: on-chain execution, range-bound vol, pairs without liquid options"
-- "Use traditional for: directional views, short-term trades, leverage"
-- "Use both for: cross-venue hedging, integrated book"
+- "LP is better for: range-bound high vol, altcoin pairs without liquid options, on-chain customer needs, continuous income"
+- "Options are better for: directional trends, low vol environments, short-term tactical, capital efficiency"
+- **Critical message**: "Key advantage is we can evaluate both markets simultaneously—deploy where risk/reward is better"
 
-**Delivery**: Show complementary, not replacement.
+**Delivery**: Emphasize comparative advantage and active decision-making.
+
+**Important talking point**: "This isn't about replacing options with LP. It's about having both tools and deploying capital where it makes the most sense in current conditions. We compare implied vol in options markets vs realized vol in LP positions and shift between them as regimes change. This is active portfolio management."
+
+**Phrase to use**: "Full derivative toolkit—use the right instrument at the right time"
 
 ---
 

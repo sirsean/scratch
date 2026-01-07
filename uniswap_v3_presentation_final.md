@@ -134,23 +134,24 @@
 
 # When to Use LP vs Traditional Derivatives
 
-**Use LP Positions**:
-✓ On-chain execution required
-✓ Range-bound volatile markets (high fees offset IL)
-✓ Pairs without liquid options markets
-✓ Continuous yield without expiration management
+**LP Positions are Better When**:
+- **Range-bound high volatility**: Price oscillates within range, generating fees without trending (options would expire worthless or get exercised)
+- **Altcoin pairs**: No liquid options markets exist (e.g., AVAX, MATIC, other L1s)
+- **Customer needs on-chain execution**: Regulatory, custody, or transparency requirements
+- **Continuous income**: Want perpetual fee generation without managing expiration schedules
 
-**Use Traditional Options/Futures**:
-✓ Directional views (LP is neutral)
-✓ Short-term tactical trades
-✓ Need leverage without full capital
+**Options are Better When**:
+- **Strong directional trend expected**: Options profit from trends, LP loses to IL
+- **Low volatility environments**: Option premium may be expensive relative to LP fees
+- **Short-term tactical views**: Options allow precise timing, LP requires sustained range
+- **Capital efficiency**: Options provide leverage without full collateral
 
-**Use Both**:
-✓ CEX futures to hedge DEX LP positions
-✓ Cross-venue arbitrage
-✓ Integrated book management
+**The Key Advantage**: We can evaluate both markets simultaneously
+- Compare implied vol (option premiums) vs realized vol (LP performance)
+- Deploy capital where risk/reward is better in current conditions
+- Shift between instruments as market regimes change
 
-**Key Point**: Complementary tools. Use the right instrument for each situation.
+**This is active portfolio management using the full derivative toolkit.**
 
 ---
 
