@@ -78,12 +78,29 @@
 
 ![Greeks Dashboard](plot_I_greeks_dashboard.png)
 
-**Delta (Δ)**: Token exposure - hedge with perp futures
-**Gamma (Γ)**: **Negative** in range - this IS impermanent loss
-**Theta (θ)**: Fee income - positive like collecting premium
-**Vega (ν)**: Volatility exposure - more vol = more fees but more IL
+**Delta (Δ)** - Position Sensitivity:
+- Below range: Maximum delta (all ETH)
+- In range: Delta decreases as price rises (selling ETH)
+- Above range: Zero delta (all USDC)
+- Hedge with perpetual futures (short Δ amount of ETH)
 
-**Key Insight**: Negative gamma (IL) must be offset by theta (fees). Same as selling options.
+**Gamma (Γ)** - Rebalancing Cost:
+- **Negative in range** = short gamma exposure (like selling options)
+- This IS the source of impermanent loss
+- Buy high, sell low rebalancing = losses from price movement
+- Zero gamma out of range = no rebalancing
+
+**Theta (θ)** - Fee Income:
+- No expiration, but earn fees over time (like positive theta)
+- Fee APR offsets negative gamma losses
+- Profitable when: Fee income > Impermanent loss
+
+**Vega (ν)** - Volatility Sensitivity:
+- High vol → More trading → More fees (GOOD)
+- High vol → More rebalancing → More IL (BAD)
+- Net depends on fee tier vs realized volatility
+
+**Key Insight**: LP = Short Gamma + Positive Theta. Same risk/reward as selling options.
 
 **We already manage these Greeks daily. This is just another venue.**
 
