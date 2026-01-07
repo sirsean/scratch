@@ -40,11 +40,11 @@
 
 **Automated Market Maker** with concentrated liquidity
 - Decentralized exchange protocol
-- $4B+ TVL, dominant by volume
-- Deep liquidity in major pairs (ETH/USDC: $400M+)
+- $4B+ TVL across multiple chains
+- Available on Ethereum, Avalanche, Arbitrum, Optimism
 
 **How It Works**:
-- Deposit token pairs in a **price range** (e.g., ETH/USDC $2000-$2500)
+- Deposit token pairs in a **price range** (e.g., AVAX/USDC $25-$35)
 - Earn fees from every swap in that range
 - Protocol automatically rebalances (sells as price rises, buys as falls)
 
@@ -156,25 +156,6 @@ Result: Buy high, sell low = Loss from rebalancing
 
 ---
 
-# The LP vs v2 vs HODL Comparison
-
-![LP vs HODL vs v2](plot_A_lp_vs_hodl_vs_v2.png)
-
-**Three approaches to token exposure**:
-
-**HODL**: No IL, but no income. Linear exposure.
-
-**Uniswap v2**: Always active, always has IL, lower capital efficiency
-
-**Uniswap v3**: Concentrated range
-- Higher fees when in range
-- Can go "out of range" (no fees, no IL)
-- Flexible risk/return profile
-
-**Key Insight**: v3 gives us range-selection capability. We can construct different exposure profiles, just like choosing option strikes.
-
----
-
 # Why This Matters: Crypto Derivatives are Maturing
 
 **Where We Were (2020-2022)**:
@@ -201,7 +182,7 @@ Result: Buy high, sell low = Loss from rebalancing
 # Our Approach: Treat It Like Any Other Derivative
 
 **What We're Doing**:
-1. **$1M deployment** across multiple positions (ETH/USDC, ETH/USDT, BTC/USDC)
+1. **$1M deployment** starting with AVAX/USDC on Avalanche
 2. **Build infrastructure**: Monitoring, Greeks calculation, hedging automation
 3. **Develop expertise**: Understand the instrument, document best practices
 4. **Integrate with existing trading**: Use CEX positions to hedge DEX exposure
@@ -270,25 +251,32 @@ Result: Buy high, sell low = Loss from rebalancing
 
 # Expected Performance: Based on Live Data
 
-**Base Case** (Current market conditions):
-- ETH/USDC 0.05% pool: 25% APR (30-day actual average)
+**AVAX/USDC on Avalanche** (0.05% fee tier):
+- Current pool liquidity: $4.2M
+- 24h volume: $5.96M
+- Current estimated APR: 20-25% (volume-dependent)
+
+**Base Case** (Current conditions):
+- Pool APR: 22% (based on current volume)
 - Impermanent loss: -8% (moderate volatility)
 - Hedging costs: -5% (perp funding)
-- **Net: ~12% yield**
+- **Net: ~9% yield**
 
 **Bull Case** (High volume, range-bound):
-- Pool APR: 40% (seen during vol spikes)
+- Pool APR: 35% (elevated volume)
 - IL: -5% (oscillating but not trending)
 - Hedging: -3%
-- **Net: ~32% yield**
+- **Net: ~27% yield**
 
 **Bear Case** (Trending market):
-- Pool APR: 15% (low volume)
+- Pool APR: 12% (low volume)
 - IL: -15% (strong trend)
 - Hedging: -7%
-- **Net: -7% loss**
+- **Net: -10% loss**
 
 **Risk Management**: Exit or widen ranges in trending markets, just like we adjust options strategies in low-vol environments
+
+*Source: [GeckoTerminal WAVAX/USDC Pool Data](https://www.geckoterminal.com/avax/pools/0xfae3f424a0a47706811521e3ee268f00cfb5c45e)*
 
 ---
 
@@ -318,7 +306,7 @@ Result: Buy high, sell low = Loss from rebalancing
 # The $1M Initiative: Building Capability
 
 **Phase 1 (Current - Month 3)**: Infrastructure & Learning
-- Deploy $1M across 3-5 positions
+- Deploy $1M in AVAX/USDC on Avalanche (primary position)
 - Build monitoring and analytics systems
 - Document operational playbooks
 - Develop pricing models and Greeks calculators
